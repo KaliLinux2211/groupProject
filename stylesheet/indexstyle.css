@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .logo{
     padding-left: 70px;
     padding-right: 200px;
@@ -5,8 +11,52 @@
 }
 .nav-item{
     padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font: bolder;
 }
 
 .fa-solid{
     padding: 25px;
+    font: bolder;
+}
+/* navbar */
+.newstyle{
+    /* border: 2px solid red; */
+    font-size:x-large;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    margin-left: 90px;
+}
+
+.newstyleh1{
+    font-size: 100px;
+    align-items: center;
+    margin-bottom: 30px;
+    font: bolder;
+    font: #0B1C39 ;
+}
+
+.btn{
+    margin-top: 20px;
+    height: 60px;
+}
+.newstyleimage{
+    /* border: 2px orange solid; */
+    position: relative;
+    margin: 150px;
+    /* margin-top: 100px; */
+    /* z-index: -1; */
+    /* height: 800px; */
+}
+
+.mainnewstyle{
+    background-color: #F0F0F2;
+    /* border: 2px solid black; */
+    position: relative;
+    height: 1040px;
+}
+
+.secondery{
+    height: 800px;
+    z-index: 0;
 }

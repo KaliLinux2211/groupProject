@@ -59,4 +59,31 @@ body{
 .secondery{
     height: 800px;
     z-index: 0;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.secondaryheader{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.secondaryimage{
+    padding: 10px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.product{
+    position: relative;
+    border: 2px solid black
+}
+
+.col-md-3{
+    margin: 50px;
+}
+
+.gallary{
+    margin-top: 150px;
 }

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, p, a{
+    font-family: 'Montserrat', sans-serif;
+}
+.login-title{
+    background: url('/groupProject/media/3428189_60286.jpg');
+
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 150px;
+    display: flex;
+}
+.login-header{
+    font-size: 70px;
+}
+.left-part{
+    background: rgb(139, 106, 147);
+    padding: 50px;
+}
+.left-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.left-title{
+    font-size: 30px;
+    color: aliceblue;
+}
+.left-p{
+    font-size: 15px;
+    font-weight: 400;
+    color: aliceblue;
+    margin-top: 30px;
+}
+button{
+    background: transparent;
+    height: 60px;
+    font-size: 15px;
+}
+.main-button{
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    color: aliceblue;
+    width: 200px;
+    margin-top: 25px;
+}
+.main-button:hover{
+    background-color: aliceblue;
+    color: red;
+}
+.right-part{
+    padding: 50px;
+    display: block;
+}
+.right-section{
+    margin-left: 50px;
+}
+.right-title{
+    font-size: 25px;
+}
+.login-button{
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+    width: 400px;
+    margin-top: 30px;
+}
+.login-button:hover{
+    background-color: blue;
+    color: white;
+}
+.login-form{
+    display: block;
+    margin-top: 75px;
+}
+input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 17px;
+}
+input:focus{
+    /* border: none; */
+    outline: none;
+}
+.remember-me{
+    display: flex;
+}
+.check{
+    width: 20px;
+}
+label{
+    margin-top: 19px;
+    margin-left: 7px;
+    color: gray;
+}
+.forget{
+    text-align: end;
+    margin-top: 10px;
+}
+.forget-link{
+    text-decoration: none;
+    color: gray;
+    margin-right: 45px;
+}

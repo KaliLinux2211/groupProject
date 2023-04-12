@@ -85,5 +85,15 @@ body{
 }
 
 .gallary{
-    margin-top: 150px;
+    padding-top: 100px;
+}
+
+.mt-5a{
+    padding-top: 100px;
+}
+
+.card{
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
 }

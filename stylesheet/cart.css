@@ -1,0 +1,55 @@
+hr{
+    color: rgb(246, 246, 246);
+}
+.cart-table{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+th{
+    color: gray;
+    font-size: 13px;
+}
+
+.main-img{
+    width: 170px;
+    height: 170px;
+
+}
+.td-body{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.td-title{
+    margin-left: 30px;
+}
+.price{
+    margin-top: 90px;
+    font-size: 13px;
+}
+.quantity{
+    width: 40px;
+    margin-top: 70px;
+    border: none;
+}
+.main-button{
+    color: white;
+    background: blue;
+}
+.main-button:hover{
+    background-color: transparent;
+    border: 1px solid blue;
+
+}
+.two-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+/* .close{
+    margin-left: 100px;
+} */

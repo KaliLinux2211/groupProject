@@ -1,0 +1,109 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    background-image: url("3428189_60286.jpg");
+    background-size: 100%;
+}
+.body_title{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 33px;
+    /* border: 5px solid black; */
+    text-align: center;
+    padding: 140px 0;
+
+    /* background-attachment: ; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x; */
+}
+h1{
+    color: rgb(29, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.body_text{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: justify;
+    font-size: smaller;
+    margin-bottom: 40px;
+}
+.body_video{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border: solid black 5px;
+    background-color: white;
+}
+.contact_us{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.message{
+    display: inline-block;
+    width: 80%;
+}
+fieldset{
+    border: none;
+    
+}
+legend{
+    display: inline-block;
+    background-color: white;
+    font-size: 24px;
+}
+textarea{
+    padding: 5px;
+    margin-bottom: 5px;
+    resize: none;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#message{
+    display: block;
+    font-size: 15px;
+}
+#name{
+    padding: 5px;
+    margin: 5px 0;
+    width: 48%;
+    font-size: 15px;
+}
+#email{
+    padding: 5px;
+    margin: 5px 0;
+    width: 48%;
+    float: right;
+    font-size: 15px;
+}
+#subject{
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+}
+#send{
+    margin-top: 5px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(247, 120, 120);
+    color: black;
+}
+#send:hover{
+    background-color: rgb(211, 85, 85);
+    color: aliceblue;
+}
+.contacts{
+    display: block;
+    width: 18%;
+    float: right;
+    border: solid black 5px;
+}
+
